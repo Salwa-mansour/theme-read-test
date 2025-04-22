@@ -1,7 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
-
+*{
+  outline: 3px solid saddlebrown;
+}
 // using salla.document.onClick(...), become effective when all children are none pointer events.
 .cursor-pointer * {
   pointer-events: none;
